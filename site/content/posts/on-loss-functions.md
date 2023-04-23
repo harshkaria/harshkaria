@@ -13,7 +13,7 @@ The following is an overview of two common loss functions we commonly use in mac
 Background on information theory:
 
 - we can define information as the minimum number of bits to represent a message
-- The measure of entropy is defined as I(p) = -(p1* log p1)+p2 * log(p2)+ … +p(n) log n
+- The measure of entropy is defined as `I(p) = -(p1* log p1)+p2 * log(p2)+ … +p(n) log n`
 
 The above calculates the entropy of a discrete probability distribution, where p1, p2, ..., p(n) are the probabilities of each of the n possible outcomes. The entropy is maximized when all the outcomes are equally likely (i.e., when the probability distribution is uniform), and it is minimized when one outcome has a probability of 1 and all the others have a probability of 0 (i.e., when the distribution is deterministic).
 
@@ -65,7 +65,7 @@ Common losses for regression include MSE, RMSE, MAV. These predict continuous va
 
 The mean squared error (MSE) is a loss function used to measure the average squared difference between the predicted and true values in a regression problem. Mathematically, the MSE can be expressed as:
 
-MSE = (1/n) * sum((y_pred - y_true)^2)
+`MSE = (1/n) * sum((y_pred - y_true)^2)`
 
 where n is the number of samples in the dataset, y_pred is the predicted value, and y_true is the true value.
 
