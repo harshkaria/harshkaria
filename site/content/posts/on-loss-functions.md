@@ -40,7 +40,7 @@ The `F.one_hot` function is then used to convert the true labels into a one-hot 
 
 The negative of the resulting tensor is summed across all elements, since we want to go in the direction of descent.
 
-The mean of the resulting tensor is returned as the cross-entropy loss. The division by y_pred.shape[0] is included to normalize the loss by the batch size, which is the number of samples being processed in a single forward pass of a model.
+The mean of the resulting tensor is returned as the cross-entropy loss. The division by `y_pred.shape[0]` is included to normalize the loss by the batch size, which is the number of samples being processed in a single forward pass of a model.
 
 ### Use case: But how does this pertain to predicting the next word?
 
