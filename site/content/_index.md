@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Welcome to HarshKaria
 description: This is a personal blog with my writings and projects
 ---
 
