@@ -32,7 +32,15 @@ def cross_entropy_loss(y_pred, y_true):
     return loss / y_pred.shape[0]
 ```
 
-We then take the negative of the softmax and one_hot the classes to select only the loss for the class at hand, and optimize against this.
+The code snippet provided above is a Python implementation of the cross-entropy loss function. The function takes in two parameters: `y_pred`, which is a tensor representing the predicted class probabilities, and `y_true`, which is a tensor representing the true labels. 
+
+We apply a log operation to the predicted probabilities using the `F.log_softmax function`, which is a PyTorch implementation of the softmax function followed by the natural logarithm (`ln`).
+
+The `F.one_hot` function is then used to convert the true labels into a one-hot encoding format, which is a binary vector where only the index corresponding to the true label is set to 1, and all other indices are set to 0. This allows us to select the probability of the correct class from the predicted probabilities by performing an element-wise multiplication of the one-hot encoded ground truth labels and the log of the predicted probabilities we got above.
+
+The negative of the resulting tensor is summed across all elements, since we want to go in the direction of descent.
+
+The mean of the resulting tensor is returned as the cross-entropy loss. The division by y_pred.shape[0] is included to normalize the loss by the batch size, which is the number of samples being processed in a single forward pass of a model.
 
 ### Use case: But how does this pertain to predicting the next word?
 
