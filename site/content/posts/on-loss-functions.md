@@ -84,4 +84,4 @@ The main purpose is to show that unlike cross-entropy loss, where we were predic
 - We use objective loss functions to optimize our networks against ground truth values.
 - These loss functions are differentiable by definition, and we go in the rate of steepest descent.
 - For classification, we use logarithmic loss functions such as cross entropy, which measures the difference between two distributions
-- For regression, we use quadratic loss functions such as MSE when predicting a continuous values.
+- For regression, we use quadratic loss functions such as MSE when predicting continuous values
