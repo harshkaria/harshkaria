@@ -1,5 +1,5 @@
 ---
-title: Welcome to HarshKaria
+title: Elemental by Harsh Karia
 description: This is a personal blog with my writings and projects
 ---
 
