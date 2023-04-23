@@ -77,7 +77,7 @@ Given a dataset of stock market data over a year how would we use MSE as the obj
 - We would then create a LSTM network tuning the learning rate, number of layers, number of hidden dimensions and after the forward pass, use MSE to calculate the difference between the predicted price and the actual price on the 30th day.
 - We would then perform back propagation until convergence.
 
-The main purpose is to show that unlike cross-entropy loss, where we were predicting a discrete variable such as a drink or a word, with regressive tasks, we use functions such as MSE to get fidelity over continuous values. 
+The main purpose is to show that unlike cross-entropy loss, where we were predicting a discrete variable such as a class or a word, with regressive tasks, we use functions such as MSE to get fidelity over continuous values. 
 
 ## Summary
 
