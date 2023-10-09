@@ -10,16 +10,13 @@ LLMs have become a common tool in various tasks such as generation and code comp
 While fine-tuning has been a popular approach for transferring to new tasks (Devlin et al., 2019), it is impractical to fine-tune the entire model for simple tasks. In context learning (ICL) is a form of pruning the latent space of these models to focus on a specific use case.
 
 ## What is Prompt Engineering?
-
-Example:
-
-Context:
+An example of a ICL based prompt for classifying NBA headlines is as follows:
 
 - "LeBron James Leads Lakers to Victory with Triple-Double Performance" - **Positive**
 - "Ja Morant ruled out for playoffs due to off-court misconduct" - **Negative**
 - "Rookie Phenom Sets New Scoring Record in NBA Debut" - **Positive**
 
-To classify: Chris Paul's Leadership and Playmaking Skills Propel Suns to Conference Finals **{Class}**
+Chris Paul's Leadership and Playmaking Skills Propel Suns to Conference Finals **________**
 
 ## Why does ICL work?
 
