@@ -3,10 +3,10 @@ title: Elemental by Harsh Karia
 description: This is a personal blog with my writings and projects
 ---
 
-This is mainly a platform for me to showcase my technical projects, share insights on machine learning, and archive my thoughts chronologically. 
+This is mainly a platform for me to showcase my technical projects, share insights on machine learning, and archive my thoughts over time.
 
-I am currently software engineer based out of Los Angeles and hold a graduate degree focusing on machine learning at the University of Southern California. I completed my undergraduate degree in Computer Science in 2020 at the University of California, Santa Cruz, where I researched stroke rehabilitation using virtual reality. 
+I am based in San Francisco and hold a graduate degree focused on machine learning from the University of Southern California. I completed my undergraduate degree in Computer Science at the University of California, Santa Cruz, in 2020, where I researched stroke rehabilitation using virtual reality.
 
-I have built distributed enterprise services, pipelines, iOS apps, and machine learning models. My primary technology stacks are Angular and Nest.js for purely web development; I like FastAPI if I want to add REST behind ML models in Python. For ML itself, I work in PyTorch across GPU clouds for training. 
+Previously, I built a no-code platform that helped major brands build better call center operations. I also started a company focused on building a hyper-personal concierge. Currently, I work in robotics research, with a focus on vision, simulation, and rapid deployment.
 
-In my free time, I like to mix music, travel, and explore the outdoors.
+In my free time, I like mixing music, traveling, and exploring the outdoors.
